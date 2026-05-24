@@ -1,0 +1,48 @@
+{
+  "nodes": {
+    "dagger": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1778107833,
+        "narHash": "sha256-q5XQep2mpgTPiWwuYB1+L2dsFeACT6sHx8J939iM+HE=",
+        "owner": "dagger",
+        "repo": "nix",
+        "rev": "873cc22ba46b73d4a6c1aa6c102ef3aabc736496",
+        "type": "github"
+      },
+      "original": {
+        "owner": "dagger",
+        "repo": "nix",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1779508470,
+        "narHash": "sha256-Ap9KJX+5xHIn3bPIpfNgT6MEXdAECECwo4/rmlQD74M=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "29916453413845e54a65b8a1cf996842300cd299",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "dagger": "dagger",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

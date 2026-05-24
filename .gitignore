@@ -1,11 +1,41 @@
 # Deno
-# https://deno.com/
-
-# Cache directory (when using project-local DENO_DIR)
-# https://docs.deno.com/runtime/fundamentals/setup/#deno_dir
 .deno/
+deno-dir/
+deno.lock
 
-# Coverage reports
-# https://docs.deno.com/runtime/reference/cli/coverage/
+# Secrets / environment
+.env
+.env.*
+!.env.example
+secrets.yaml
+*.secret
+*.token
+
+# Docker / local build output
+*.tar
+*.img
+*.log
+
+# Nix
+result
+result-*
+.direnv/
+
+# Editors / OS
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Coverage / tests
 coverage/
-*.lcov
+lcov.info
+
+# Temporary files
+tmp/
+temp/
+.cache/
