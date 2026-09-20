@@ -32,6 +32,7 @@
           dagger.packages.${system}.dagger
           pkgs.deno
           pkgs.git
+          pkgs.nodejs_24
           pkgs.nixfmt-rfc-style
         ];
 
